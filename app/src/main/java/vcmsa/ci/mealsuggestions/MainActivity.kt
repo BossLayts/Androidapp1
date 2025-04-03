@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         // Reference UI elements
         val editTextTimeOfDay = findViewById<TextInputEditText>(R.id.editTextTimeOfDay)
         val buttonSubmit = findViewById<Button>(R.id.buttonSubmit)
